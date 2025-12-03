@@ -1,0 +1,7 @@
+{
+  "name": "MindClone Gemini",
+  "description": "A web application inspired by Oppo Mind Space, allowing users to capture on-screen information (text, images, links), store them as 'Memories', and leverage the Gemini API for intelligent processing like summarization and contextual Q&A.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

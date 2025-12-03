@@ -1,0 +1,22 @@
+{
+  "name": "MindClone Gemini",
+  "short_name": "MindClone",
+  "description": "A web application inspired by Oppo Mind Space, leveraging Gemini API.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://placehold.co/192x192/0066cc/ffffff.png?text=MC",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://placehold.co/512x512/0066cc/ffffff.png?text=MC",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

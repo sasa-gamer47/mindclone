@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>MindClone Gemini</title>
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#0d1117" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="MindClone" />
+    <link rel="apple-touch-icon" href="https://placehold.co/192x192/0066cc/ffffff.png?text=MC" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bunker': '#0d1117',
+              'shark': '#21262d',
+              'nevada': '#636e7b',
+              'loblolly': '#c5d1de',
+              'science-blue': '#0066cc',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "dexie": "https://aistudiocdn.com/dexie@^4.0.7",
+    "dexie-react-hooks": "https://aistudiocdn.com/dexie-react-hooks@^1.1.7",
+    "react-force-graph-2d": "https://aistudiocdn.com/react-force-graph-2d@^1.29.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-bunker text-loblolly overscroll-none">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
